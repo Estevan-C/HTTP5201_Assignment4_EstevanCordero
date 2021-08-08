@@ -7,8 +7,8 @@ module.exports = {
       input: {
         main: resolve(__dirname, 'index.html'),
         nested: resolve(__dirname, 'quality_assurance.html'),
-        nested: resolve(__dirname, 'security.html'),
-        nested: resolve(__dirname, 'bad_example.html')
+        nested2: resolve(__dirname, 'security.html'),
+        nested3: resolve(__dirname, 'bad_example.html')
       }
     }
   }

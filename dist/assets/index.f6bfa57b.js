@@ -1,0 +1,1 @@
+document.querySelector(".links").innerHTML='\n  <ul>\n    <li><a href="index.html">Home Page</a></li>\n    <li><a href="quality_assurance.html">Quality Assurance Page</a></li>\n    <li><a href="security.html">Security Page</a></li>\n    <li><a href="bad_example.html">Bad Example Page</a></li>\n  </ul>\n';

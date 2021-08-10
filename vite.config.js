@@ -6,9 +6,9 @@ module.exports = {
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        nested: resolve(__dirname, 'quality_assurance.html'),
-        nested2: resolve(__dirname, 'security.html'),
-        nested3: resolve(__dirname, 'bad_example.html')
+        qa: resolve(__dirname, 'quality_assurance.html'),
+        security: resolve(__dirname, 'security.html'),
+        badexample: resolve(__dirname, 'bad_example.html')
       }
     }
   }
